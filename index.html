@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>王磊的主页</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .avatar {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 10px 0;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .photos img {
+      width: 100%;
+      max-width: 240px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 600px) {
+      .photos img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="images/me.jpg" alt="我的头像" class="avatar">
+      <h1>你好，我是王磊</h1>
+      <p>机械工程 | 拍照旅行 | 日语初学者</p>
+    </div>
+
+    <div class="section">
+      <h2>🧭 关于我</h2>
+      <p>大连理工大学机械工程专业在读。喜欢旅行、拍照、打乒乓球、听J-Pop，也在练习日语。</p>
+    </div>
+
+    <div class="section">
+      <h2>📸 相册精选</h2>
+      <div class="photos">
+        <img src="images/tokyo.jpg" alt="东京街头">
+        <img src="images/enoshima.jpg" alt="江之岛沙滩">
+        <img src="images/snow.jpg" alt="冬日仙台">
+        <img src="images/univ.jpg" alt="东北大学一角">
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🎶 我的兴趣</h2>
+      <ul>
+        <li>✈️ 城市旅行和风景摄影</li>
+        <li>🎵 J-Pop（宇多田光、Aimer等）</li>
+        <li>🏓 校内乒乓球社团成员</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📬 联系我</h2>
+      <p>邮箱：yourname@example.com</p>
+      <p>微信 / 小红书：私聊获取 😄</p>
+    </div>
+  </div>
+</body>
+</html>
